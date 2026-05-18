@@ -1,7 +1,6 @@
-package com.github.johnnysc.practicetdd
+package com.github.johnnysc.practicetdd.domain
 
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
 
 interface DispatchersList {
     fun io() : CoroutineDispatcher

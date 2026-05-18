@@ -1,4 +1,4 @@
-package com.github.johnnysc.practicetdd
+package com.github.johnnysc.practicetdd.ui
 
 interface UiValidator {
     fun errorMessage(): String

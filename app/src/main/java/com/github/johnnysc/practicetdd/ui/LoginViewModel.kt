@@ -1,6 +1,10 @@
-package com.github.johnnysc.practicetdd
+package com.github.johnnysc.practicetdd.ui
 
-import androidx.lifecycle.ViewModel
+import com.github.johnnysc.practicetdd.domain.DispatchersList
+import com.github.johnnysc.practicetdd.ui.LoginCommunication
+import com.github.johnnysc.practicetdd.domain.LoginInteractor
+import com.github.johnnysc.practicetdd.ui.UiValidator
+import com.github.johnnysc.practicetdd.domain.WeatherItem
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch

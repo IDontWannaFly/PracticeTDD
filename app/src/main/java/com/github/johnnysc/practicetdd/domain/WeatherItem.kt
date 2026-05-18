@@ -1,4 +1,6 @@
-package com.github.johnnysc.practicetdd
+package com.github.johnnysc.practicetdd.domain
+
+import com.github.johnnysc.practicetdd.domain.ExceptionType
 
 sealed class WeatherItem{
     data class Error(val exceptionType: ExceptionType) : WeatherItem()

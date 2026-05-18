@@ -1,4 +1,4 @@
-package com.github.johnnysc.practicetdd
+package com.github.johnnysc.practicetdd.ui
 
 data class WeatherUiModel(
     val description: String,
