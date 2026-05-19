@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView)
         val parser: MarkDown.Parser = MarkDown.Parser.Base("#FF0000", "**")
         val resultItem: MarkDown.ResultItem = parser.parse(source)
-        val text: CharSequence = resultItem.formattedText()
-        textView.text = text
+//        val text: CharSequence = resultItem.formattedText()
+//        textView.text = text
     }
 }
